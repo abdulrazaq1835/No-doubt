@@ -25,7 +25,7 @@ connectDB().then(() => {
 app.use("/api/posts", postRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Api is running...");
+  res.send("Api is running.");
 });
 
 initWebSocket(server);
