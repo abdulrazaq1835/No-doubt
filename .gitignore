@@ -1,0 +1,13 @@
+# Node
+node_modules
+npm-debug.log
+
+# Env
+.env
+
+# Vite build
+frontend/dist
+
+# OS
+.DS_Store
+Thumbs.db
