@@ -1,5 +1,5 @@
 import { WebSocketServer } from "ws";
-import Post from "../models/post.js";
+import Post from "../models/Post.js";
 
 const initWebSocket = (server) => {
   const wss = new WebSocketServer({ server });
